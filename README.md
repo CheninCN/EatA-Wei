@@ -13,7 +13,7 @@ _ 是新游戏哦？_
 ## 简介
 此为开源二次创作by cheninCN
 原作：
-小游戏：吃掉小鹿乃 by arcxingye
+小游戏：吃掉小鹿乃(见上图标↑↑↑) by arcxingye
 
 [线上版本](https://xingye.me/game/eatkano/index.php)
 |
