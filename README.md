@@ -5,13 +5,13 @@
 
 # EatKano
 
-_🦌 网页小游戏 🥛_
+_ 是新游戏哦？_
 
 </div>
 
 
 ## 简介
-此为开源二次创作by chenincn
+此为开源二次创作by cheninCN
 原作：
 小游戏：吃掉小鹿乃 by arcxingye
 
