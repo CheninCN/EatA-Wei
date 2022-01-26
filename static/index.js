@@ -401,11 +401,11 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
         }
         // TODO 添加反馈
         if (mode === MODE_ENDLESS) return '';
-        if (score <= 49) return '试着好好练一下？';
-        if (score <= 99) return 'TCL';
-        if (score <= 149) return 'TQL';
-        if (score <= 199) return '您';
-        return '人？';
+        if (score <= 49) return '就是逊啦';
+        if (score <= 99) return '死了啦，都你害的啦，拜托';
+        if (score <= 149) return '杰哥不要阿';
+        if (score <= 199) return '开玩笑，我超勇的好不好';
+        return 'again';
     }
 
     function toStr(obj) {
