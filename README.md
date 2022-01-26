@@ -11,8 +11,9 @@ _🦌 网页小游戏 🥛_
 
 
 ## 简介
-
-小游戏：吃掉小鹿乃
+此为开源二次创作by chenincn
+原作：
+小游戏：吃掉小鹿乃 by
 
 [线上版本](https://xingye.me/game/eatkano/index.php)
 |
