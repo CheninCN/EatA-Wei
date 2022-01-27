@@ -403,7 +403,7 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
         if (mode === MODE_ENDLESS) return '';
         if (score <= 9) return '烦呐！';
         if (score <= 29) return '就是逊啦';
-        if (score <= 99) return '死了啦，都你害的啦，拜托';
+        if (score <= 79) return '死了啦，都你害的啦，拜托';
         if (score <= 149) return '开玩笑，我超勇的好不好';
         if (score <= 169) return '哈！最近有在健身啦！';
         return '杰哥不要阿！QwQ~~~';
