@@ -401,11 +401,12 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
         }
         // TODO 添加反馈
         if (mode === MODE_ENDLESS) return '';
-        if (score <= 49) return '就是逊啦';
+        if (score <= 9) return '烦呐！';
+        if (score <= 29) return '就是逊啦';
         if (score <= 99) return '死了啦，都你害的啦，拜托';
-        if (score <= 149) return '杰哥不要阿';
-        if (score <= 199) return '开玩笑，我超勇的好不好';
-        return 'again';
+        if (score <= 149) return '开玩笑，我超勇的好不好';
+        if (score <= 169) return '哈！最近有在健身啦！';
+        return '杰哥不要阿！QwQ~~~';
     }
 
     function toStr(obj) {
@@ -442,7 +443,7 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
     function initSetting() {
         document.getElementById("username").value = cookie("username") ? cookie("username") : "";
         document.getElementById("message").value = cookie("message") ? cookie("message") : "";
-        document.getElementsByTagName("title")[0].innerText = cookie("title") ? cookie("title") : "吃掉小鹿乃";
+        document.getElementsByTagName("title")[0].innerText = cookie("title") ? cookie("title") : "吃掉阿伟";//网页title命名
         if (cookie("keyboard")) {
             document.getElementById("keyboard").value = cookie("keyboard");
             map = {}
